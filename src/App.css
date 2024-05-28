@@ -1,0 +1,181 @@
+/* src/App.css */
+.body{
+  background-color: white;
+  font-family: 'Poppins', sans-serif; 
+}
+.nav {
+  margin-left: 400p;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure items are spaced between */
+  padding: 1rem;
+  height: 80px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Set a higher z-index value */
+}
+
+.unfluke {
+  position: fixed;
+  top: -60px; /* Adjust the top position as needed */
+  left: -10px; /* Adjust the left position as needed */
+  height: 200px; /* Adjust the height as needed */
+  padding: 4.7em;
+  transition: filter 300ms;
+  
+  z-index: 2; /* Set a higher z-index value */
+}
+
+.unfluke:hover {
+  filter: drop-shadow(0 0 2em rgb(255, 255, 255));
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  margin-left: 1160px;
+}
+
+.nav-link {
+  border: none;
+  background-color: inherit;
+  margin-left: 1rem;
+  
+}
+
+.icon {
+  height: 25px; /* Adjust the height as needed */
+}
+
+.profile-icon {
+  height: 30px; /* Adjust the height as needed */
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.dropdown-menu {
+  padding: 0;
+  left: auto;
+  right: 0;
+  border-top: 2px solid whitesmoke;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 0.5rem 1rem;
+}
+
+.content {
+  padding-top: 100px; /* Adjust based on the height of your navbar */
+  padding: 2rem;
+}
+/* src/App.css */
+.blue-row {
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(162, 77, 136);
+  color: white;
+  height: 50px;
+  font-size: 1.05em;
+  position: fixed;
+  margin-top: -150px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.blue-link {
+  cursor: pointer;
+}
+
+.blue-link:hover {
+  text-decoration:none ;
+}
+.box{
+  width:25px;
+  height:25px;
+
+}
+.firstele{
+  margin-top: 2.5px;
+  margin-left: 10px;
+}
+
+/* src/App.css */
+.two{
+  border-radius: 10px;
+}
+.one {
+  
+  text-align:start;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 25px;
+  background-color: #ddc2d5;
+  color: rgb(86, 35, 65);
+  text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.3);
+}
+
+.heading{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content:center;
+  margin-left:465px;
+  font-size: 50px;
+  color: rgb(55, 34, 90);
+  font-weight: bolder;
+  margin-top: 230px;
+  margin-bottom: 70px;
+
+}
+/* Add this CSS to style the table */
+/* src/App.css */
+.table {
+  
+
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: rgb(162, 77, 136);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: rgb(162, 77, 136);
+}
